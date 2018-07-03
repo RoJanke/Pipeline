@@ -13,11 +13,11 @@ import static org.junit.Assert.fail;
 public class DemoApplicationTests {
 
     @Test
-    public void contextLoads() {
+    public void MathTest() {
         double a = 5;
         double b = 2;
         double result1 = MyMath.add(a, b);
-        Assert.assertEquals(5, result1, 0);
+        Assert.assertEquals(7, result1, 0);
     }
 
 }
