@@ -14,7 +14,10 @@ public class DemoApplicationTests {
 
     @Test
     public void contextLoads() {
-        fail("Test Failed");
+        double a = 5;
+        double b = 2;
+        double result1 = MyMath.add(a, b);
+        Assert.assertEquals(7, result1, 0);
     }
 
 }
