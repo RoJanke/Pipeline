@@ -17,7 +17,7 @@ public class DemoApplicationTests {
         double a = 5;
         double b = 2;
         double result1 = MyMath.add(a, b);
-        Assert.assertEquals(7, result1, 0);
+        Assert.assertEquals(5, result1, 0);
     }
 
 }
